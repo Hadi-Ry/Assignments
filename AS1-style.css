@@ -1,0 +1,45 @@
+*{
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+    display: grid;
+}
+
+#header{
+    height: 150px;
+    background-color: blue;
+    grid-column: 1/3;
+}
+
+#nav_bar{
+    height: 300px;
+    width: 180px;
+    background-color: red;
+}
+
+#main_content{
+    height: 360px;
+    width: 725px;
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.subcontent{
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+}
+
+#advertisements{
+    height: 90px;
+    width: 670px;
+    background-color: pink;
+}
